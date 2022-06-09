@@ -2,6 +2,8 @@
 
 Made using React for the frontend, MongoDB for backend, and PokeAPI for the pokemon data.
 
+The website is hosted on MongoDB, check it out in the about section!
+
 In the project directory, you can run:
 
 ### `npm install`

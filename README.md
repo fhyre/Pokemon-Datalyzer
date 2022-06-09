@@ -1,3 +1,7 @@
+## About
+
+Made using React for the frontend, MongoDB for backend, and PokeAPI for the pokemon data.
+
 In the project directory, you can run:
 
 ### `npm install`

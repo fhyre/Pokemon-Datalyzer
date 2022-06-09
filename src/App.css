@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Fredoka&family=Poppins&family=VT323&family=Major+Mono+Display&family=Quicksand&display=swap');
+
+.bg-image-settings {
+  background: url(./media/pokeball\ diagonal\ wallpaper.jpg) center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.shadow-filter {
+  background-color: rgba(0, 0, 0, 0.671);
+  position:  fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app-main-container {
+  position: relative;
+}
+
+.app-main-heading-container{
+  text-align: center;
+  font-size: 75px;
+  margin-top: 15%;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.app-sub-container {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.slide-down {
+  animation: slideDown ease-in 1s;
+}
+
+.big-padding {
+  margin-bottom: 3em;
+}
+
+.app-sub-heading {
+  font-size: 20px;
+  margin-top: 3em;
+}
+
+.ps-main-inner-box-container {
+  height: 600px;
+}
+
+footer {
+  height: 1em;
+  margin-bottom: 2em;
+}
+
+.loader-img {
+  margin: 2em auto;
+  height: 60px;
+  width: 110px;
+}
+
+.poke-tile {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 400px;
+  max-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px!important;
+}
+
+.pt-tile-inner-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  padding: 0 1em;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.pt-tile-inner-container:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.296);
+}
+
+.ctb-container {
+  top: 0;
+  position: sticky;
+  width: 100vw;
+  margin: auto;
+  min-height: 125px;
+  min-width: 350px;
+  background-color: rgba(255, 255, 255, 0.696);
+}
+
+.ctb-container h1 {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.poke-tile-in-tb {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.ctb-button {
+  margin-top: 2%;
+}
+
+.sd-background {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.sd-container {
+  width: 700px;
+  height: 500px;
+  margin: 15vh auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1em;
+  border-radius: 1em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.sd-data-container {
+  margin-top: 2em;
+  color: rgb(0, 255, 0);
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+  width: 100%;
+  overflow: auto;
+  font-size: 20px;
+}
+
+.sd-loader-container {
+  padding: 1px;
+  margin: 25% auto;
+}
+
+.pdct-container {
+  margin: 1em;
+}
+
+@keyframes slideDown {
+  from {
+    margin-top: -800px;
+  } 
+  to {
+    margin-top: 15%;
+  }
+}
